@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+h2{
+  text-align: center;
+}
+.userList{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+.userItem{
+  padding: 5px;
+  font-size: 20px;
+  list-style:outside;
+  margin: 0px 20px;
+
+}
+.pagination{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.pagination button {
+  color: black;
+  padding: 8px 16px;
+}
+.pagination span{
+  padding: 5px;
+} 
